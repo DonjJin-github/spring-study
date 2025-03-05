@@ -16,7 +16,41 @@
 ---
 
 ## 📝 **공부한 내용**
-- **문자와 문자열의 차이**
-- **문자열 메서드 사용법 (substring, replace 등)**
-- **정규 표현식 기본 문법**
-- **성능 최적화 기법 (StringBuilder, StringBuffer 비교)**  
+
+<details>
+  <summary>1️⃣ 강의소개</summary>
+  
+  - 강의 목표 및 개요 이해  
+  - 실습을 통해 스프링의 핵심 개념을 익힐 예정  
+</details>
+
+<details>
+  <summary>2️⃣ 프로젝트 환경설정</summary>
+  
+  - 프로젝트 생성 및 Gradle 설정  
+  - IntelliJ 세팅 및 스프링 부트 실행 방법  
+  - 라이브러리 설정 (`spring-boot-starter-web` 등)  
+</details>
+
+<details>
+  <summary>3️⃣ 스프링 웹 개발 기초</summary>
+  
+  - **MVC 패턴**  
+    - Model, View, Controller의 역할 정리  
+  - **스프링 컨트롤러 동작 원리**  
+    - `@Controller`와 `@RestController` 차이  
+  - **뷰 템플릿(Thymeleaf) 활용**  
+    - `th:text`, `th:each`를 활용한 데이터 출력  
+</details>
+
+<details>
+  <summary>4️⃣ 회원관리 예제</summary>
+
+  - **회원 도메인 개발**  
+    - `Member` 객체 생성 (id, name)  
+  - **Repository 패턴 적용**  
+    - `MemoryMemberRepository`를 활용한 메모리 저장소 구현  
+  - **테스트 코드 작성**  
+    - `@Test`를 활용한 단위 테스트 실습  
+</details>
+
